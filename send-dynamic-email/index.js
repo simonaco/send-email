@@ -15,7 +15,7 @@ const sendEmail = async context => {
         ],
         dynamic_template_data: {
           name: body.name,
-          items: body.items
+          stops: body.stops
         }
       }
     ],
